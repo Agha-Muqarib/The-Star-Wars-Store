@@ -1,4 +1,4 @@
-## The Star Wars Store
+# The Star Wars Store
 The project is an online e-commerce sort of website based on star wars.The main features of projects include home,login,signup,about and privacy,return,exchange and copyrights policies and contact us.
 
 ## Login Page Structure:
