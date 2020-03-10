@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+
+<body background="C:\Users\hp\Desktop\Project\Images\stars-wallpaper-full-hd-1920x1080-19938.jpg">
+
+    <div class="topnav">
+        <a href="C:\Users\hp\Desktop\Project\Login\signUp.html" class="active" text-s>Sign Up </a>
+        <a href="C:\Users\hp\Desktop\Project\Login\loginForm.html">Login </a>
+
+
+    </div>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        /* Add a black background color to the top navigation */
+        .topnav {
+            height: 2em;
+            background-color: black;
+            overflow: hidden;
+            border-radius: 0em;
+            box-shadow: lightslategray;
+            font-family: Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        /* Style the links inside the navigation bar */
+        .topnav a {
+            float: right;
+            color: lightslategray;
+            text-align: center;
+            padding: 7px 16px;
+            font-weight: bold;
+            font-style: normal;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-decoration: none;
+
+        }
+
+        /* Change the color of links on hover */
+        .topnav a:hover {
+            background-color: lightslategray;
+            color: black;
+        }
+
+        /* Add a color to the active/current link */
+        a.active {
+            background-color: lightslategray;
+            color: black;
+
+        }
+    </style>
+
+    <!-- Bottom Navigation Bar -->
+
+    <div class="bottomNav">
+        <!-- <a href="#contact">Contact Us </a> -->
+        <a href="C:\Users\hp\Desktop\Project\Home\home.html" class="active" text-s> Home </a>
+        <a href="C:\Users\hp\Desktop\Project\About\aboutUs.html">About</a>
+        <a href="C:\Users\hp\Desktop\Project\Contact\contact.html">Contact Us </a>
+
+    </div>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        /* Add a black background color to the top navigation */
+        .bottomNav {
+            height: 10vh;
+
+            background-color: lightslategray;
+            overflow: hidden;
+            border-radius: 0px;
+            box-shadow: rgb(190, 54, 4);
+            background-image: repeating-radial-gradient(lightslategray, black);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        /* Style the links inside the navigation bar */
+        .bottomNav a {
+
+            text-shadow: rgb(107, 100, 146);
+            float: left;
+            color: rgb(11, 7, 24);
+            text-align: center;
+            padding: 20px;
+            margin-left: 25em;
+            margin-right: -530px;
+            font-style: normal;
+            text-decoration: none;
+            font-size: 21px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+
+        }
+
+        /* Change the color of links on hover */
+        .bottomNav a:hover {
+            background-color: lightslategray;
+            color: white;
+        }
+
+        /* Add a color to the active/current link */
+        .bottomNav a.active {
+            background-color: black;
+            color: rgb(179, 179, 179);
+        }
+    </style>
+
+
+
+
+
+    <div class=signupBox>
+
+        <p> Already have an account ? <a href="C:\Users\hp\Desktop\Project\Login\loginForm.html"> Login!</a> </p>
+
+        <form>
+
+            <fieldset class=signUp>
+                <legend> Sign Up </legend>
+
+                <label> Email : <input id="emailentry" type="email" name="email" size="15" maxlength="30"
+                        required="true">
+                </label>
+                <br> <br>
+                <label> Username: <input type="text" name="username" size="15" maxlength="30" required="true">
+                </label>
+                <br> <br>
+                <label> Password: <input type="password" name="passsword" size="15" maxlength="30" required="true">
+                </label>
+                <br> <br>
+                <label> <input type="checkbox"> Remember Me </label>
+                <br> <br>
+                <button class=loginButton> SignUp </button>
+
+            </fieldset>
+
+        </form>
+    </div>
+
+    <style>
+        a {
+
+            color: white;
+            font-weight: normal;
+            font-style: oblique;
+            text-decoration: none;
+        }
+
+        #emailentry {
+            margin-left: 1.9em;
+        }
+
+        p {
+            font-size: 1em;
+            color: rgb(179, 179, 179);
+            font-weight: bold;
+            margin-right: 33em;
+            padding-right: 25em;
+            padding-top: 1em;
+            padding-bottom: 2em;
+
+
+        }
+
+
+        .signupBox {
+            text-align: center;
+            width: 100%;
+            padding: 70px 100px 100px 470px;
+            color: rgb(179, 179, 179);
+            text-shadow: 20px black;
+            height: 85vh;
+
+
+        }
+
+        .signUp {
+            width: 400px;
+            height: 190px;
+            padding-top: 45px;
+            padding-bottom: 40px;
+            text-align: center;
+            border-radius: 2em;
+            border: solid rgb(179, 179, 179);
+            font-weight: bold;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 14px;
+            margin-top: 0em;
+            margin-left: 0.1em;
+            margin-bottom: 0.2em;
+
+        }
+
+        label>input {
+
+            border-radius: 1em;
+            border: rgb(179, 179, 179);
+            margin-right: 2em;
+            padding-left: 50px;
+
+        }
+
+        label {
+            margin-left: 1em;
+        }
+
+
+        button {
+            margin-top: 8px;
+            margin-left: 17em;
+            width: 130px;
+            height: 30px;
+            color: white;
+            border-radius: 1em;
+            box-shadow: 0 5px 5px 0;
+            background-color: black;
+            text-align: center;
+            display: inline-block;
+            cursor: pointer;
+            opacity: 0.8;
+            font-weight: bold;
+
+        }
+
+        button:hover {
+            background-color: rgb(179, 179, 179);
+            color: black;
+            font-weight: bold;
+            box-shadow: black 5px 5px 5px 5px;
+        }
+
+        legend {
+            font-size: 2em;
+            font-style: oblique;
+        }
+    </style>
+
+
+
+    <br>
+    <br>
+
+</body>
+
+</html>

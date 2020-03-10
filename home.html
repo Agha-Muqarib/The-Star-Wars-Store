@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+</head>
+
+<body background="C:\Users\hp\Desktop\Project\Images\stars-wallpaper-full-hd-1920x1080-19938.jpg">
+
+
+
+  <div class="topnav">
+
+    <a href="C:\Users\hp\Desktop\Project\Login\loginForm.html">Login </a>
+    <a href="C:\Users\hp\Desktop\Project\Login\signUp.html">Sign Up</a>
+    <a href="" id=brand> The Star Wars World</a>
+
+  </div>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+
+    #brand {
+
+      margin-right: 69em;
+      text-decoration-style: dotted;
+      font-style: oblique;
+
+    }
+
+
+    /* Add a black background color to the top navigation */
+    .topnav {
+      height: 2em;
+      background-color: black;
+      overflow: hidden;
+      margin-top: 0em;
+      border-radius: 0em;
+      box-shadow: black;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      text-align: center;
+
+    }
+
+    /* Style the links inside the navigation bar */
+    .topnav a {
+      float: right;
+      color: lightslategray;
+      text-align: center;
+
+      padding: 7px 16px;
+      text-decoration-style: solid;
+      font-weight: bold;
+      font-style: normal;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      text-decoration: none;
+
+
+    }
+
+    /* Change the color of links on hover */
+    .topnav a:hover {
+      background-color: lightslategray;
+      color: black;
+    }
+
+    /* Add a color to the active/current link */
+    .topnav a:active {
+      background-color: lightslategray;
+      color: black;
+
+    }
+  </style>
+
+  <!-- Bottom Navigation Bar -->
+
+  <div class="bottomNav">
+    <!-- <a href="#contact">Contact Us </a> -->
+    <a href="C:\Users\hp\Desktop\Project\Home\home.html" class="active" text-s> Home </a>
+    <a href="C:\Users\hp\Desktop\Project\About\aboutUs.html">About</a>
+    <a href="C:\Users\hp\Desktop\Project\Contact\contact.html">Contact Us </a>
+
+  </div>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    /* Add a black background color to the top navigation */
+    .bottomNav {
+      height: 9vh;
+      background-color: lightslategray;
+      overflow: hidden;
+      border-radius: 0px;
+      box-shadow: lightslategray;
+      background-image: repeating-radial-gradient(lightslategray, black);
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    /* Style the links inside the navigation bar */
+    .bottomNav a {
+
+
+      float: left;
+      color: rgb(11, 7, 24);
+      text-align: center;
+      padding: 18px;
+      margin-left: 25em;
+      margin-right: -530px;
+      text-decoration: none;
+      font-size: 21px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+
+    }
+
+    /* Change the color of links on hover */
+    .bottomNav a:hover {
+      background-color: lightslategray;
+      color: black;
+    }
+
+    /* Add a color to the active/current link */
+    .bottomNav a.active {
+      background-color: black;
+      color: rgb(179, 179, 179);
+    }
+  </style>
+
+  <!-- Side Nav Buttons -->
+  <div id="mySidenav" class="sidenav">
+    <a href="C:\Users\hp\Desktop\Project\Policies\privacy.html" id="privacy">Privacy Policy</a>
+    <a href="C:\Users\hp\Desktop\Project\Policies\return.html" id="return">Return Policy</a>
+    <a href="C:\Users\hp\Desktop\Project\Policies\swap.html" id="exchange">Swap Policy</a>
+    <a href="C:\Users\hp\Desktop\Project\Policies\copyrights.html" id="copyrights">Copy Rights</a>
+  </div>
+
+  <style>
+    #mySidenav a {
+
+      margin-top: 0.6em;
+      position: fixed;
+      left: -80px;
+      transition: 0.3s;
+      padding: 12px;
+      width: 100px;
+      text-decoration: none;
+      font-size: 20px;
+      color: white;
+      border-radius: 0 20px 9px 0;
+    }
+
+    #mySidenav a:hover {
+      left: 0;
+
+    }
+
+    #privacy {
+      top: 20px;
+      background-color: silver;
+      background-image: linear-gradient(silver, black);
+    }
+
+    #return {
+      top: 80px;
+      background-color: rgb(110, 110, 110);
+      background-image: linear-gradient(black, rgb(110, 110, 110));
+    }
+
+    #exchange {
+      top: 140px;
+      background-color: rgb(70, 70, 70);
+      background-image: linear-gradient(black, rgb(70, 70, 70));
+    }
+
+    #copyrights {
+      top: 200px;
+      background-color: black;
+      background-image: linear-gradient(black, gray);
+    }
+  </style>
+
+
+  <!-- Main Page of Products -->
+
+  <div class="productsDiv">
+    <div class="card">
+      <img src="C:\Users\hp\Desktop\Project\Images\lightsaber.jpg" alt="Light Saber" style="width:100%">
+      <h1>Light Saber</h1>
+      <p class="price">Rs 999</p> <br>
+      <p>Available in all colors</p><br>
+      <p><button onclick="addToCart()">Add to Cart</button></p>
+    </div>
+
+    <div class="card1">
+      <img src="C:\Users\hp\Desktop\Project\Images\costume.PNG" alt="Jedi costume">
+      <h1> Jedi costume </h1>
+      <p class="price">RS 2499</p> <br>
+      <p>Available in S,M,L,XL in all colors</p><br>
+      <p><button onclick="addToCart()">Add to Cart</button></p>
+    </div>
+
+    <div class="card">
+      <img src="C:\Users\hp\Desktop\Project\Images\51V44GZRPAL.jpg" alt="Space ships" style="width:100%">
+      <h1>Space ships</h1>
+      <p class="price">RS 7599</p><br>
+      <p>Toy spaceship - Kids Play</p><br>
+      <p><button onclick="addToCar()t">Add to Cart</button></p>
+    </div>
+
+    <div class="card2">
+      <img src="C:\Users\hp\Desktop\Project\Images\r2 d2.jpg" alt="Robot" style="width:100%">
+      <h1>R2 D2 Dummy</h1>
+      <p class="price">RS 5000</p><br>
+      <p>Kids Play</p><br>
+      <p><button onclick="addToCart()">Add to Cart</button></p>
+    </div>
+    <div class="card">
+      <img src="C:\Users\hp\Desktop\Project\Images\anakin-skywalker-mask-costume-child-lightsaber-mask-png-clip-art.png"
+        alt="Darth Vador Helmet" style="width:100%">
+      <h1> Darth Vador Helmet</h1>
+      <p class="price">RS 1400</p><br>
+      <p>Available in S,M,L,XL</p> <br>
+      <p><button onclick="addToCart()"> Add to Cart</button></p>
+    </div>
+    <div class="card3">
+
+      <img src="C:\Users\hp\Desktop\Project\Images\3po.jpg" alt="Robot" style="width:100%">
+      <h1>3PO Dummy</h1>
+      <p class="price">RS 2300</p><br>
+      <p>Kids Play</p><br>
+      <p><button onclick="addToCart()">Add to Cart</button></p>
+    </div>
+
+    <div class="card">
+      <img src="C:\Users\hp\Desktop\Project\Images\baby-yoda-surprise.png" alt="Yoda Cushions" style="width:100%">
+      <h1>Yoda Cushions</h1>
+      <p class="price">RS 699</p><br>
+      <p>Room Cushions.Available in all characters</p><br>
+      <p><button onclick="addToCart()">Add to Cart</button></p>
+    </div>
+
+    <div class="card4">
+      <img
+        src="C:\Users\hp\Desktop\Project\Images\star-wars-episode-7-vii-the-force-awakens-wallpaper-full-hd-1920x1080-282669.jpg "
+        alt="Denim Jeans" style="width:100%">
+      <h1>Wall Poster</h1>
+      <p class="price">RS 999</p><br>
+      <p>Available in all movies.</p><br>
+      <p><button onclick="addToCart()">Add to Cart</button></p>
+    </div>
+
+    <div class="card">
+      <img
+        src="C:\Users\hp\Desktop\Project\Images\man-wearing-black-hoodie-standing-on-concrete-pavement-at-1737405.jpg"
+        alt="Denim Jeans" style="width:100%">
+      <h1>Random Poster</h1>
+      <p class="price">RS 1200</p><br>
+      <p>Man with light saber.</p><br>
+      <p><button onclick="addToCart()">Add to Cart</button></p>
+    </div>
+
+    <style>
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        margin-top: 4em;
+        margin-left: 20em;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgba(255, 255, 255, 0.938);
+        border: lightslategray solid;
+      }
+
+      .card1,
+      .card2,
+      .card3,
+      .card4 {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        margin-top: 4em;
+        margin-left: 55em;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgba(255, 255, 255, 0.938);
+        border-radius: 0.5em;
+        border: rgba(255, 255, 255, 0.938) solid;
+
+
+      }
+
+
+      .price {
+        color: grey;
+        font-size: 22px;
+      }
+
+      .card button {
+        border: none;
+        outline: 0;
+        padding: 12px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+
+      }
+
+
+      .card1 button,
+      .card2 button,
+      .card3 button,
+      .card4 button {
+        border: none;
+        outline: 0;
+        padding: 12px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+      }
+
+      .card button:hover {
+        opacity: 0.7;
+      }
+
+      .card1 button:hover,
+      .card2 button:hover,
+      .card3 button:hover,
+      .card4 button:hover {
+        opacity: 0.7;
+      }
+    </style>
+
+    <script>
+
+      function addToCart() {
+        var name = document.getElementById("").value;
+        var price =  document.getElementById("").value;
+        
+      }
+    </script>
+
+  </div>
+
+  <br>
+  <br>
+
+  <!-- footer -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <footer class="footer-distributed">
+
+    <div class="footer-left">
+
+      <h3>The<span>Star Wars </span>World</h3>
+
+      <p class="footer-links">
+        <a href="C:\Users\hp\Desktop\Project\Home\home.html">Home</a>
+        |
+
+        <a href="C:\Users\hp\Desktop\Project\About\aboutUs.html">About</a>
+
+        |
+        <a href="C:\Users\hp\Desktop\Project\Contact\contact.html">Contact</a>
+      </p>
+
+      <p class="footer-company-name">starwarsworld &copy; 2020</p>
+    </div>
+
+    <div class="footer-center">
+
+      <div>
+        <i class="fa fa-map-marker"></i>
+        <p><span><a
+              href="https://www.google.com/search?rlz=1C1CHBF_enPK868PK868&sxsrf=ACYBGNQyZ2PjXQFaUEPOBtisqeQunzHUJA%3A1582999816708&ei=CKlaXofuKuatgwff0JYY&q=bank+al+habib+abul+hassan+isphani+road+karachi+MAp&oq=bank+al+habib+abul+hassan+isphani+road+karachi+MAp&gs_l=psy-ab.3...4948.7901..8105...0.2..0.250.831.0j3j1......0....1..gws-wiz.......0i71j0i22i30j0i333j33i160.4ayb2WFDCGQ&ved=0ahUKEwiHkoTurffnAhXm1uAKHV-oBQMQ4dUDCAs&uact=5">Abu
+              al Hasan Asfahani Road</span> Karachi,Pakistan</p>
+      </div>
+
+      <div>
+        <i class="fa fa-phone"></i>
+        <p>021-XXXXXXX</p>
+      </div>
+
+      <div>
+        <i class="fa fa-envelope"></i>
+        <p><a href="mailto:amukhan@students.uit.edu">mailto:amukhan@students.uit.edu</a></p>
+      </div>
+
+    </div>
+
+    <div class="footer-right">
+
+      <p class="footer-company-about">
+        <span>About the company</span>
+        The Star Wars World is a store of entertainment to fulfil your fantasies in real life to an extent.
+      </p>
+
+      <div class="footer-icons">
+
+        <a href="https://www.facebook.com/AghaMuqaribb"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/agha-muqarib-29b5a1178/"><i class="fa fa-linkedin"></i></a>
+        <a href="https://github.com/AghaMuqarib-2000"><i class="fa fa-github"></i></a>
+
+      </div>
+    </div>
+
+  </footer>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .main {
+      max-height: 550px;
+      ;
+      background-color: #292c2f;
+      color: white;
+      font-size: 38pt;
+      text-align: center;
+      line-height: 550px;
+    }
+
+    footer {
+      margin-bottom: 0em;
+    }
+
+    .footer-distributed {
+      background-color: #292c2f;
+      box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+      box-sizing: border-box;
+      width: 100%;
+      text-align: left;
+      font: bold 16px Georgia;
+      padding: 55px 50px;
+      background-image: linear-gradient(black, rgb(77, 85, 94));
+
+    }
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+      display: inline-block;
+      vertical-align: top;
+    }
+
+    .footer-distributed .footer-left {
+      width: 40%;
+    }
+
+    .footer-distributed h3 {
+      color: #ffffff;
+      font: normal 36px 'Cookie', cursive;
+      margin: 0;
+    }
+
+    .footer-distributed h3 span {
+      color: #5383d3;
+    }
+
+
+    .footer-distributed .footer-links {
+      color: #ffffff;
+      margin: 20px 0 12px;
+      padding: 0;
+    }
+
+    .footer-distributed .footer-links a {
+      display: inline-block;
+      line-height: 1.8;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .footer-distributed .footer-company-name {
+      color: #8f9296;
+      font-size: 14px;
+      font-weight: normal;
+      margin: 0;
+    }
+
+
+    .footer-distributed .footer-center {
+      width: 35%;
+    }
+
+    .footer-distributed .footer-center i {
+      background-color: #33383b;
+      color: #ffffff;
+      font-size: 25px;
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 42px;
+      margin: 10px 15px;
+      vertical-align: middle;
+    }
+
+    .footer-distributed .footer-center i.fa-envelope {
+      font-size: 17px;
+      line-height: 38px;
+    }
+
+    .footer-distributed .footer-center p {
+      display: inline-block;
+      color: #ffffff;
+      vertical-align: middle;
+      margin: 0;
+    }
+
+    .footer-distributed .footer-center p span {
+      display: block;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 2;
+    }
+
+    .footer-distributed .footer-center p a {
+      color: #5383d3;
+      text-decoration: none;
+      ;
+    }
+
+    .footer-distributed .footer-right {
+      width: 20%;
+    }
+
+    .footer-distributed .footer-company-about {
+      line-height: 20px;
+      color: #92999f;
+      font-size: 13px;
+      font-weight: normal;
+      margin: 0;
+    }
+
+    .footer-distributed .footer-company-about span {
+      display: block;
+      color: #ffffff;
+      font-size: 14px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .footer-distributed .footer-icons {
+      margin-top: 25px;
+    }
+
+    /* .footer-distributed .footer-icons a
+    
+    
+      .fa {
+      padding: 10px;
+      font-size: 20px;
+      width: 20px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 50%; { */
+
+
+
+
+
+
+
+    .fa {
+
+      display: inline-block;
+      padding: 10px;
+      width: 20px;
+      height: 35px;
+      cursor: pointer;
+      background-color: #33383b;
+      border-radius: 50%;
+      text-align: center;
+      font-size: 20px;
+      color: #ffffff;
+      text-align: center;
+      line-height: 35px;
+
+      margin-right: 3px;
+      margin-bottom: 5px;
+    }
+
+    .fa:hover {
+      opacity: 0.7;
+    }
+
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+    }
+
+    .fa-twitter {
+      background: #55ACEE;
+      color: white;
+    }
+
+    .fa-google {
+      background: #dd4b39;
+      color: white;
+    }
+
+    .fa-linkedin {
+      background: #007bb5;
+      color: white;
+    }
+
+
+    .fa-instagram {
+      background-image: linear-gradient(rgb(184, 70, 113), purple, orange, rgb(209, 209, 63));
+      color: white;
+    }
+
+
+
+
+
+    /* 
+      display: inline-block;
+      width: 35px;
+      height: 35px;
+      cursor: pointer;
+      background-color: #33383b;
+      border-radius: 2px;
+
+      font-size: 20px;
+      color: #ffffff;
+      text-align: center;
+      line-height: 35px;
+
+      margin-right: 3px;
+      margin-bottom: 5px;
+    } */
+
+
+    @media (max-width: 880px) {
+
+      .footer-distributed {
+        font: bold 14px sans-serif;
+
+      }
+
+      .footer-distributed .footer-left,
+      .footer-distributed .footer-center,
+      .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+      }
+
+      .footer-distributed .footer-center i {
+        margin-left: 0;
+      }
+
+      .main {
+        line-height: normal;
+        font-size: auto;
+      }
+    }
+  </style>
+
+
+
+</body>
+
+</html>

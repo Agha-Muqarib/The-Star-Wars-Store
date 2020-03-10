@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+</head>
+
+<body background="C:\Users\hp\Desktop\Project\Images\stars-wallpaper-full-hd-1920x1080-19938.jpg">
+
+  <div class="topnav">
+
+    <a href="C:\Users\hp\Desktop\Project\Login\loginForm.html">Login </a>
+    <a href="C:\Users\hp\Desktop\Project\Login\signUp.html" class="active" text-s>Sign Up</a>
+    <a href="" id=brand> The Star Wars World </a>
+
+  </div>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+
+    #brand {
+
+      margin-right: 60em;
+      text-decoration-style: dotted;
+      font-style: oblique;
+
+    }
+
+
+    /* Add a black background color to the top navigation */
+    .topnav {
+    
+      height: 2em;
+      background-color: black;
+      overflow: hidden;
+      border-radius: 0em;
+      box-shadow: black;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      text-align: center;
+
+    }
+
+    /* Style the links inside the navigation bar */
+    .topnav a {
+      float: right;
+      color: lightslategray;
+      text-align: center;
+      padding: 7px 16px;
+      text-decoration-style: solid;
+      font-weight: bold;
+      font-style: normal;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      text-decoration: none;
+
+
+    }
+
+    /* Change the color of links on hover */
+    .topnav a:hover {
+      background-color: lightslategray;
+      color: black;
+    }
+
+    /* Add a color to the active/current link */
+    .topnav a:active {
+      background-color: lightslategray;
+      color: black;
+
+    }
+  </style>
+
+  <!-- Bottom Navigation Bar -->
+
+  <div class="bottomNav">
+    <!-- <a href="#contact">Contact Us </a> -->
+    <a href="C:\Users\hp\Desktop\Project\Home\home.html"> Home </a>
+    <a href="C:\Users\hp\Desktop\Project\About\aboutUs.html">About</a>
+    <a href="C:\Users\hp\Desktop\Project\Contact\contact.html" class="active" text-s>Contact Us </a>
+
+  </div>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    /* Add a black background color to the top navigation */
+    .bottomNav {
+      height: 9vh;
+
+      background-color: lightslategray;
+      overflow: hidden;
+      border-radius: 0px;
+      box-shadow: lightslategray;
+      background-image: repeating-radial-gradient(lightslategray, black);
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    /* Style the links inside the navigation bar */
+    .bottomNav a {
+
+
+      float: left;
+      color: rgb(11, 7, 24);
+      text-align: center;
+      padding: 18px;
+      margin-left: 25em;
+      margin-right: -530px;
+      text-decoration: none;
+      font-size: 21px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+
+    }
+
+    /* Change the color of links on hover */
+    .bottomNav a:hover {
+      background-color: lightslategray;
+      color: black;
+    }
+
+    /* Add a color to the active/current link */
+    .bottomNav a.active {
+      background-color: black;
+      color: rgb(179, 179, 179);
+    }
+  </style>
+
+  <!-- Body of contact us excluding navigation bars and footer -->
+
+  <!-- whole page -->
+  <div class=contactform>
+
+    <!-- form body -->
+    <form>
+
+      <fieldset class=contact>
+        <legend> Contact Us </legend>
+
+
+        <label> Name: <input id="nameentry" type="text" name="name" size="20" maxlength="30" required="true">
+        </label>
+        <br> <br>
+        <label> Email : <input id="emailentry" type="email" name="email" size="20" maxlength="30" required="true">
+        </label>
+        <br> <br>
+
+        <label> Cell Number: <input type="text" name="number" size="20" maxlength="11" required="true">
+        </label>
+        <br> <br>
+        <label id="textareaLabel"> Your message: <br><textarea type="text" name="message" cols="50" rows="10"
+            maxlength="10000" placeholder="Describe  your query..." required="true"></textarea>
+        </label>
+
+        <br> <br>
+
+        <button class=SubmitButton> Submit </button>
+
+      </fieldset>
+
+    </form>
+  </div>
+
+  <style>
+    /* email entry positioning */
+
+    #emailentry {
+      margin-left: 4.5em;
+    }
+
+    /* name entry positioning */
+    #nameentry {
+      margin-left: 4.5em;
+    }
+
+    /* form body styling */
+
+    .contactForm {
+      text-align: center;
+      width: 100%;
+      padding: 70px 100px 100px 470px;
+      color: rgb(179, 179, 179);
+      text-shadow: 20px black;
+      height: 85vh;
+
+
+
+    }
+
+
+    /* Inner form  body styling */
+
+    .contact {
+      width: 700px;
+      height: 350px;
+      padding-top: 45px;
+      padding-bottom: 40px;
+      text-align: left;
+      border-radius: 2em;
+      border: solid rgb(179, 179, 179);
+      font-weight: bold;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 14px;
+      margin-top: 5em;
+      margin-left: 24em;
+      margin-bottom: 0.2em;
+
+
+    }
+
+    label>input {
+
+      border-radius: 1em;
+      border: rgb(179, 179, 179);
+      margin-left: 1em;
+      margin-top: 0em;
+      padding-top: 1.5px;
+      padding-bottom: 1.5px;
+      padding-left: 4px;
+
+
+    }
+
+
+
+    label>textarea {
+
+      border-radius: 1em;
+      border: rgb(179, 179, 179);
+      margin-left: 17em;
+      margin-top: -1em;
+      padding-top: 10px;
+      padding-left: 10px;
+
+
+    }
+
+    label {
+      margin-left: 8em;
+      color: white;
+    }
+
+
+    button {
+      margin-top: 8px;
+      margin-left: 37em;
+      width: 130px;
+      height: 30px;
+      color: white;
+      border-radius: 1em;
+      box-shadow: 0 5px 5px 0;
+      background-color: black;
+      text-align: center;
+      display: inline-block;
+      cursor: pointer;
+      opacity: 0.8;
+      font-weight: bold;
+
+    }
+
+    button:hover {
+      background-color: rgb(179, 179, 179);
+      color: black;
+      font-weight: bold;
+      box-shadow: black 5px 5px 5px 5px;
+    }
+
+    legend {
+      font-size: 1.5em;
+      font-style: normal;
+      color: cornsilk;
+
+    }
+  </style>
+
+<br>
+<br>
+  <br>
+  <br>
+<br>
+<br>
+<br>
+
+
+
+<!-- footer -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<footer class="footer-distributed">
+
+  <div class="footer-left">
+
+    <h3>The<span>Star Wars </span>World</h3>
+
+    <p class="footer-links">
+      <a href="C:\Users\hp\Desktop\Project\Home\home.html">Home</a>
+      |
+
+      <a href="C:\Users\hp\Desktop\Project\About\aboutUs.html">About</a>
+
+      |
+      <a href="C:\Users\hp\Desktop\Project\Contact\contact.html">Contact</a>
+    </p>
+
+    <p class="footer-company-name">starwarsworld &copy; 2020</p>
+  </div>
+
+  <div class="footer-center">
+
+    <div>
+      <i class="fa fa-map-marker"></i>
+      <p><span><a
+            href="https://www.google.com/search?rlz=1C1CHBF_enPK868PK868&sxsrf=ACYBGNQyZ2PjXQFaUEPOBtisqeQunzHUJA%3A1582999816708&ei=CKlaXofuKuatgwff0JYY&q=bank+al+habib+abul+hassan+isphani+road+karachi+MAp&oq=bank+al+habib+abul+hassan+isphani+road+karachi+MAp&gs_l=psy-ab.3...4948.7901..8105...0.2..0.250.831.0j3j1......0....1..gws-wiz.......0i71j0i22i30j0i333j33i160.4ayb2WFDCGQ&ved=0ahUKEwiHkoTurffnAhXm1uAKHV-oBQMQ4dUDCAs&uact=5">Abu
+            al Hasan Asfahani Road</span> Karachi,Pakistan</p>
+    </div>
+
+    <div>
+      <i class="fa fa-phone"></i>
+      <p>021-XXXXXXX</p>
+    </div>
+
+    <div>
+      <i class="fa fa-envelope"></i>
+      <p><a href="mailto:amukhan@students.uit.edu">mailto:amukhan@students.uit.edu</a></p>
+    </div>
+
+  </div>
+
+  <div class="footer-right">
+
+    <p class="footer-company-about">
+      <span>About the company</span>
+      The Star Wars World is a store of entertainment to fulfil your fantasies in real life to an extent.
+    </p>
+
+    <div class="footer-icons">
+
+      <a href="https://www.facebook.com/AghaMuqaribb"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="https://www.linkedin.com/in/agha-muqarib-29b5a1178/"><i class="fa fa-linkedin"></i></a>
+      <a href="https://github.com/AghaMuqarib-2000"><i class="fa fa-github"></i></a>
+
+    </div>
+  </div>
+
+</footer>
+
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .main {
+    max-height: 550px;
+    ;
+    background-color: #292c2f;
+    color: white;
+    font-size: 38pt;
+    text-align: center;
+    line-height: 550px;
+  }
+
+  footer {
+    margin-bottom: 0em;
+  }
+
+  .footer-distributed {
+    background-color: #292c2f;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px Georgia;
+    padding: 55px 50px;
+    background-image: linear-gradient(black,rgb(77, 85, 94));
+   
+  }
+
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .footer-distributed .footer-left {
+    width: 40%;
+  }
+
+  .footer-distributed h3 {
+    color: #ffffff;
+    font: normal 36px 'Cookie', cursive;
+    margin: 0;
+  }
+
+  .footer-distributed h3 span {
+    color: #5383d3;
+  }
+
+
+  .footer-distributed .footer-links {
+    color: #ffffff;
+    margin: 20px 0 12px;
+    padding: 0;
+  }
+
+  .footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .footer-distributed .footer-company-name {
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+  }
+
+
+  .footer-distributed .footer-center {
+    width: 35%;
+  }
+
+  .footer-distributed .footer-center i {
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+  }
+
+  .footer-distributed .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+  }
+
+  .footer-distributed .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0;
+  }
+
+  .footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+  }
+
+  .footer-distributed .footer-center p a {
+    color: #5383d3;
+    text-decoration: none;
+    ;
+  }
+
+  .footer-distributed .footer-right {
+    width: 20%;
+  }
+
+  .footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+  }
+
+  .footer-distributed .footer-company-about span {
+    display: block;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .footer-distributed .footer-icons {
+    margin-top: 25px;
+  }
+
+  /* .footer-distributed .footer-icons a
+  
+  
+    .fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%; { */
+
+
+
+
+
+
+
+  .fa {
+
+    display: inline-block;
+    padding: 10px;
+    width: 20px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+
+    margin-right: 3px;
+    margin-bottom: 5px;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+
+  .fa-instagram {
+    background-image: linear-gradient(rgb(184, 70, 113), purple, orange, rgb(209, 209, 63));
+    color: white;
+  }
+
+
+
+
+
+/* 
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+
+    margin-right: 3px;
+    margin-bottom: 5px;
+  } */
+
+
+  @media (max-width: 880px) {
+
+    .footer-distributed {
+      font: bold 14px sans-serif;
+
+    }
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+      display: block;
+      width: 100%;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+
+    .footer-distributed .footer-center i {
+      margin-left: 0;
+    }
+
+    .main {
+      line-height: normal;
+      font-size: auto;
+    }
+  }
+ 
+</style>
+
+
+  </div>
+</body>
