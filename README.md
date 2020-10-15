@@ -22,4 +22,5 @@ The project is an online e-commerce sort of website based on star wars.The main 
          The footer is fixed to bottom and is fully operational and every link redirects on the profile respectively.
          
 ### Link to Site:      
-         thestarwarsstore-7f02a.web.app
+
+         https://thestarwarsstore-7f02a.web.app/
