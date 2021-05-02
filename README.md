@@ -23,4 +23,4 @@ The project is an online e-commerce sort of website based on star wars.The main 
          
 ### Link to Site:      
 
-[!Go to Site](https://thestarwarsstore-7f02a.web.app/)
+[Click me to redirect to Site](https://thestarwarsstore-7f02a.web.app/)
