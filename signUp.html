@@ -7,55 +7,66 @@
     <title>Sign Up</title>
 </head>
 
-<body background="C:\Users\hp\Desktop\Project\Images\stars-wallpaper-full-hd-1920x1080-19938.jpg">
+<body background="Images\stars-wallpaper-full-hd-1920x1080-19938.jpg">
 
     <div class="topnav">
-        <a href="C:\Users\hp\Desktop\Project\Login\signUp.html" class="active" text-s>Sign Up </a>
-        <a href="C:\Users\hp\Desktop\Project\Login\loginForm.html">Login </a>
 
+        <a href="loginForm.html">Login </a>
+        <a href="signUp.html" class="active" text-s>Sign Up</a>
+        <a href="" id=brand> The Star Wars World</a>
 
     </div>
+
     <style>
         * {
-            padding: 0;
             margin: 0;
+            padding: 0;
         }
-
+        
+        #brand {
+            margin-right: 54em;
+            font-style: oblique;
+        }
+        
+        #brand:hover {
+            color: lightslategray;
+            background-color: black;
+        }
         /* Add a black background color to the top navigation */
+        
         .topnav {
-            height: 2em;
+            height: 3em;
             background-color: black;
             overflow: hidden;
             border-radius: 0em;
-            box-shadow: lightslategray;
-            font-family: Helvetica, sans-serif;
+            box-shadow: rgb(190, 54, 4);
+            font-family: Georgia, 'Times New Roman', Times, serif;
             text-align: center;
         }
-
         /* Style the links inside the navigation bar */
+        
         .topnav a {
             float: right;
             color: lightslategray;
             text-align: center;
-            padding: 7px 16px;
+            padding: 14px 32px;
+            text-decoration-style: solid;
             font-weight: bold;
             font-style: normal;
             font-family: Georgia, 'Times New Roman', Times, serif;
             text-decoration: none;
-
         }
-
         /* Change the color of links on hover */
+        
         .topnav a:hover {
-            background-color: lightslategray;
-            color: black;
+            color: white(7, 6, 6, 0.932);
+            text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px white;
         }
-
         /* Add a color to the active/current link */
-        a.active {
+        
+        .topnav a.active {
             background-color: lightslategray;
             color: black;
-
         }
     </style>
 
@@ -63,9 +74,9 @@
 
     <div class="bottomNav">
         <!-- <a href="#contact">Contact Us </a> -->
-        <a href="C:\Users\hp\Desktop\Project\Home\home.html" class="active" text-s> Home </a>
-        <a href="C:\Users\hp\Desktop\Project\About\aboutUs.html">About</a>
-        <a href="C:\Users\hp\Desktop\Project\Contact\contact.html">Contact Us </a>
+        <a href="home.html"> Home </a>
+        <a href="aboutUs.html">About</a>
+        <a href="contact.html">Contact Us </a>
 
     </div>
     <style>
@@ -73,56 +84,42 @@
             padding: 0;
             margin: 0;
         }
-
         /* Add a black background color to the top navigation */
+        
         .bottomNav {
-            height: 10vh;
-
+            height: 9vh;
             background-color: lightslategray;
             overflow: hidden;
             border-radius: 0px;
-            box-shadow: rgb(190, 54, 4);
+            box-shadow: lightslategray;
             background-image: repeating-radial-gradient(lightslategray, black);
             font-family: Georgia, 'Times New Roman', Times, serif;
         }
-
         /* Style the links inside the navigation bar */
+        
         .bottomNav a {
-
-            text-shadow: rgb(107, 100, 146);
             float: left;
             color: rgb(11, 7, 24);
             text-align: center;
-            padding: 20px;
+            padding: 18px;
             margin-left: 25em;
             margin-right: -530px;
-            font-style: normal;
             text-decoration: none;
             font-size: 21px;
             font-family: Georgia, 'Times New Roman', Times, serif;
-
         }
-
         /* Change the color of links on hover */
+        
         .bottomNav a:hover {
             background-color: lightslategray;
-            color: white;
+            color: black;
         }
-
         /* Add a color to the active/current link */
-        .bottomNav a.active {
-            background-color: black;
-            color: rgb(179, 179, 179);
-        }
     </style>
-
-
-
-
 
     <div class=signupBox>
 
-        <p> Already have an account ? <a href="C:\Users\hp\Desktop\Project\Login\loginForm.html"> Login!</a> </p>
+        <p> Already have an account ? <a href="loginForm.html"> Login!</a> </p>
 
         <form>
 
@@ -150,43 +147,37 @@
 
     <style>
         a {
-
             color: white;
             font-weight: normal;
             font-style: oblique;
             text-decoration: none;
         }
-
+        
         #emailentry {
             margin-left: 1.9em;
         }
-
+        
         p {
             font-size: 1em;
-            color: rgb(179, 179, 179);
+            color: rgb(94, 78, 78);
             font-weight: bold;
-            margin-right: 33em;
-            padding-right: 25em;
+            text-align: center;
             padding-top: 1em;
             padding-bottom: 2em;
-
-
+            width: 50%;
         }
-
-
+        
         .signupBox {
             text-align: center;
-            width: 100%;
+            width: 50%;
             padding: 70px 100px 100px 470px;
             color: rgb(179, 179, 179);
             text-shadow: 20px black;
             height: 85vh;
-
-
         }
-
+        
         .signUp {
-            width: 400px;
+            width: 70%;
             height: 190px;
             padding-top: 45px;
             padding-bottom: 40px;
@@ -197,25 +188,21 @@
             font-family: Georgia, 'Times New Roman', Times, serif;
             font-size: 14px;
             margin-top: 0em;
-            margin-left: 0.1em;
             margin-bottom: 0.2em;
-
+            margin-left: -4em;
         }
-
+        
         label>input {
-
             border-radius: 1em;
             border: rgb(179, 179, 179);
             margin-right: 2em;
             padding-left: 50px;
-
         }
-
+        
         label {
             margin-left: 1em;
         }
-
-
+        
         button {
             margin-top: 8px;
             margin-left: 17em;
@@ -230,23 +217,21 @@
             cursor: pointer;
             opacity: 0.8;
             font-weight: bold;
-
         }
-
+        
         button:hover {
             background-color: rgb(179, 179, 179);
             color: black;
             font-weight: bold;
             box-shadow: black 5px 5px 5px 5px;
         }
-
+        
         legend {
             font-size: 2em;
             font-style: oblique;
+            text-align: center;
         }
     </style>
-
-
 
     <br>
     <br>
